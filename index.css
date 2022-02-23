@@ -1,0 +1,51 @@
+#top{
+  background-color: pink;
+  witdh:100%;
+    margin: 0px auto;
+}
+#logotipo{
+  float:left;
+}
+
+#title h1{
+  padding:20px;
+ text-align:center;
+}
+
+#search{
+  float:right;
+  background-color:grey;
+}
+
+#middle{
+  background-color: red;
+  width:100%;
+    margin: 0px auto;
+}
+
+#nombredelapelicula{
+  float:left;
+  width:50%;
+  background-color:blue;
+
+}
+
+#informaciondelapelicula{
+  float:right;
+  width:50%;
+  backgroun-color:green;
+}
+
+
+
+#low{
+  background-color:purple;
+  padding:20px;
+  width:100%;
+    margin: 0px auto;
+}
+
+footer{
+ background-color: green;
+  padding:20px;
+}
