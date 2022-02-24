@@ -1,51 +1,94 @@
+* {
+  margin:0;
+  padding:0;
+  font-family: 'Open Sans Condensed', sans-serif;
+font-family: 'Quicksand', sans-serif;
+}
+
 #top{
   background-color: pink;
   witdh:100%;
-    margin: 0px auto;
+  height:75px;
+  margin: 0px auto;
 }
 #logotipo{
   float:left;
 }
-
-#title h1{
-  padding:20px;
- text-align:center;
+#title{
+  float:left;
+  padding-bottom:20px;
+  height:75px;
+  width:70%;
 }
-
 #search{
   float:right;
   background-color:grey;
+  height:75px;
 }
 
+#title h1{
+ text-align:center;
+  margin-bottom:0;
+  font-size:50px;
+}
+
+
 #middle{
-  background-color: red;
+  background-color: #d979b7;
   width:100%;
-    margin: 0px auto;
+  margin: 0px auto;
+  height:800px;
 }
 
 #nombredelapelicula{
   float:left;
-  width:50%;
-  background-color:blue;
+  width:40%;
+  background-color:#d979b7;
 
 }
+
 
 #informaciondelapelicula{
   float:right;
-  width:50%;
-  backgroun-color:green;
+  width:55%;
+  background-color:#d979b7;
 }
 
+#informaciondelapelicula p{
+  font-size:20px;
+}
 
 
 #low{
-  background-color:purple;
-  padding:20px;
+  background-color:#bf79d9;
   width:100%;
     margin: 0px auto;
+  height:300px;
+}
+
+#cine{
+  float:left;
+  width:70%;
+}
+
+#cine h3{
+  text-align:center;
+  padding:20px;
+}
+#cine p{
+  text-align:center;
+  font-size:30px;
+}
+#imgyinfo{
+  float:right;
+  width:auto;
+}
+
+#imgyinfo img{
+  height:300px;
 }
 
 footer{
- background-color: green;
-  padding:20px;
+ background-color:#79ccd9;
+  height:50px;
 }
